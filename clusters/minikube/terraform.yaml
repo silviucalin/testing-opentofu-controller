@@ -4,6 +4,7 @@ metadata:
   name: test
   namespace: flux-system
 spec:
+  suspend: true
   approvePlan: "auto"
   interval: 2m
   destroyResourcesOnDeletion: true
@@ -21,4 +22,3 @@ spec:
       envFrom:
         - secretRef:
             name: aws-credentials
-      suspend: true
