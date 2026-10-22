@@ -27,6 +27,6 @@ spec:
         name: tofu-controller
         namespace: flux-system
       interval: 1m
-      values:
-        branchPlanner:
-          enabled: true
+  values:
+    branchPlanner:
+      enabled: true
