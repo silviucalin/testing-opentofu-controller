@@ -6,7 +6,7 @@ cat <<EOF | kubectl apply -f -
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: branch-planner-demo
+  name: test
   namespace: flux-system
 spec:
   interval: 30s
