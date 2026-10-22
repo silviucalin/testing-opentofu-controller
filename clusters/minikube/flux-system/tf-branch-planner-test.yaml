@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30s
-  url: https://github.com/<your-user>/branch-planner-demo
+  url: https://github.com/silviucalin/testing-opentofu-controller
   ref:
     branch: main
 ---
