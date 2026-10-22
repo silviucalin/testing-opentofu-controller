@@ -4,7 +4,7 @@ metadata:
   name: test
   namespace: flux-system
 spec:
-  suspend: false
+  suspend: true
   approvePlan: "auto"
   interval: 2m
   destroyResourcesOnDeletion: true
