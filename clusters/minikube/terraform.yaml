@@ -27,7 +27,7 @@ spec:
 apiVersion: infra.contrib.fluxcd.io/v1alpha2
 kind: Terraform
 metadata:
-  name: test
+  name: test-secret
   namespace: flux-system
 spec:
   approvePlan: auto
@@ -38,4 +38,4 @@ spec:
     name: flux-system
     namespace: flux-system
   writeOutputsToSecret:
-    name: test-output
+    name: test-secret-output
