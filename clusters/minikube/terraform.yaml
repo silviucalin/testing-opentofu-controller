@@ -39,5 +39,7 @@ spec:
     namespace: flux-system
   writeOutputsToSecret:
     name: test-secret-output
-    outputs:
-    - age_key:age.agekey
+    labels:
+      my-label: true
+    annotations:
+      my-annotation: "Weekend is here. Yaaaay!"
