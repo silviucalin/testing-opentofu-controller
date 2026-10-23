@@ -40,5 +40,4 @@ spec:
   writeOutputsToSecret:
     name: test-secret-output
     outputs:
-    - hello_test
-    - my_sensitive_data
+    - age_key:age.agekey
